@@ -30,7 +30,7 @@ class Weather extends DatabaseHelper{
     }
     
     public function getForecast($town) {
-        $key = "b390f5ef4e7d475e9ff121052172007";
+        $key = "YOUR_KEY_HERE";
         $forcast_days='3';
         $url ="http://api.apixu.com/v1/forecast.json?key=$key&q=$town&days=$forcast_days";
     
