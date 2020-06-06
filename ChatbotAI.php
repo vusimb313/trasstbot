@@ -35,7 +35,7 @@ class ChatbotAI
                 return $this->getWeather($town[1]);
             }
             else{
-                //The user's intent intent is to get the weather at an unspecified location
+                //The user's intent is to get the weather at an unspecified location
                 //Let him share his location and we retrieve the weather forecast for that location
                 return '"text" : "Which town are you asking about?"';
             }
